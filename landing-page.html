@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AjaProFoodCart-Live to Eat</title>
+  <link rel="stylesheet" href="listings-page.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--header div section start-->
+
+  <!--header-->
+  <nav class="navbar navbar-expand-lg navbar-light  shadow">
+    <div class="container-fluid ">
+      <!--header-logo-->
+      <div class="navbar-brand d-flex justify-content-between align-items-center">
+        <a href="listings-page.html" class="logo"><img src="./assets/ajapro1.jpg" width="100px"></a>
+        <h3 id="app-title">FoodCart</h3>
+      </div>
+
+
+      <!-- header-navbar -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SignUp</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- header-cart -->
+
+      <div class="col-2 d-flex justify-content-end align-items-center ml-5">
+        <a class="cart-logo d-flex align-items-center" href="cart-page.html">
+          <span><i class="fa-3x fa fa-shopping-cart"></i></span>
+          <span class="text-cart">Cart</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!--Header-End-->
+
+
+  <!--Main-Div-->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="vh-100 col-sm-3 border">
+
+        <nav id="navbar-example3" class="navbar navbar-light bg-light" id="sidebar">
+          <a href="#" class="navbar-brand mt-1">
+            <div class="display-6 font-weight-bold" id="ajapro">AjaPro</div>
+          </a>
+          <nav class="nav nav-pills nav-stacked flex-column mt-3">
+            <a class="nav-link nav-link-head font-weight-bold h4" href="#veg">Veg</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#breakfast">Breakfast</a>
+              <a class="nav-link ms-3 my-1" href="#veg-starters">Starters</a>
+              <a class="nav-link ms-3 my-1" href="#veg-main-course">MainCourse</a>
+            </nav>
+
+            <a class="nav-link nav-link-head font-weight-bold h4" href="#non-veg">Non-Veg</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#non-veg-starters">Starters</a>
+              <a class="nav-link ms-3 my-1" href="#non-veg-main-course">Main-Course</a>
+            </nav>
+
+            <a class="nav-link nav-link-head font-weight-bold h4" href="#desserts">Desserts</a>
+
+          </nav>
+        </nav>
+      </div>
+
+      <!--side-navbar-ends-->
+
+
+      <!--main div logic starts-->
+      <div class="col-sm-9">
+        <div class="row border pb-4 shadow">
+          <div class="col-sm-7 d-flex align-items-center justify-content-center pt-2 pb-2 bg-light" >
+            <img src="" id="image" class="shadow" height="280px" width="90%">
+          </div>
+          <div class="col-sm-5 d-flex flex-column">
+            <div class="row">
+              <h3 class="col-sm-6" id="name"></h3>
+              <p class="col-sm-6 d-flex justify-content-end" id="veg"></p>
+            </div>
+            <div>
+              <p>rating: <span id="rating"></span></p>
+            </div>
+            <div>
+              <p>type: <span id="type"></span></p>
+            </div>
+            <div>
+              <p>spice-level: <span id="spice"></span></p>
+            </div>
+            <div>
+              <p>Price: $<span id="price"></span></p>
+            </div>
+
+            <div>
+              <button type="submit" class="btn btn-success">add to cart</button>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row mt-3 ml-2 border">
+          <h4>Description:</h4>
+          <hr class="">
+          <div id="description" class="pl-5">
+          </div>
+        </div>
+        <div class="row mt-3 ml-2 border">
+          <h4>Review</h4>
+          <hr>
+          <div id="comment" class="pl-5">
+
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- main div logic ends-->
+    </div>
+
+  </div>
+
+
+  <!--Main div ends-->
+
+  <!--footer-starts-->
+  <div class="container-fluid m-4 border footer shadow">
+    <div class="row footer-top pt-3">
+      <div class="col-xs-12 col-sm-4 pl-5 footers-one">
+        <h5 class="pl-4">Essentials</h5>
+        <ul>
+          <li><a href="maintenance.html">Search</a></li>
+          <li><a href="contact.html">Sell your Food</a></li>
+          <li><a href="about.html">Advertise with us</a></li>
+          <li><a href="about.html">Delivery Portal</a></li>
+          <li><a href="about.html">Post Requirements</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 pl-5 footers-two">
+        <h5 class="pl-4">Information</h5>
+        <ul>
+          <li><a href="maintenance.html">Register Now</a></li>
+          <li><a href="contact.html">Advice</a></li>
+          <li><a href="about.html">Videos</a></li>
+          <li><a href="about.html">Blog</a></li>
+          <li><a href="about.html">Services</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 pl-5 footers-three ml-auto">
+        <h5 class="pl-4">Company</h5>
+        <ul>
+          <li><a href="maintenance.html">Career</a></li>
+          <li><a href="about.html">For Parters</a></li>
+          <li><a href="about.html">Terms</a></li>
+          <li><a href="about.html">Policy</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row footer-bottom shadow">
+      <div class="d-flex justify-content-around align-items-center">
+        <a href="#" class=""><img src="./assets/ajapro1.jpg" width="70px"></a>
+
+        <div class="social-icons">
+          <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
+          <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
+          <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
+          <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+        </div>
+
+        <div class="copy-right">
+          <p class="text-muted">© 2018 xyz Software Pvt. Ltd.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-ends-->
+
+
+
+
+
+
+  <!--Script tag-->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+    crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="landing-page.js"></script>
+</body>
+
+</html>
