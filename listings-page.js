@@ -148,26 +148,60 @@ const itemList = [
    
 ];
 
-
-function foodTemplate(food){
-    return `
-            <div class="col-sm-5 card m-4 p-3 mb-5">
-                <img src="${food["img-path"][0]}" class="card-img-top food-image-path shadow pt-2" height="200px" widht="100px" alt="...">
-                <div class="card-body p-2">
-                    <h5 class="card-title">${food.name}  &nbsp; <span class="veg text-success ml-auto">${food.veg}</span></h5>
-                    <p class="card-text"><span class="type">(${food.type})</span></p>
-                    <p class="card-text"><span class="level">('spice-level' - ${food["spice-level"]})</span></p>
-                    <button onclick="valueSender(${food.id})">Quick View</button>
-                </div>
-            </div>
-            `
-}
+//Add dynamic card in listing page
 
 document.getElementById("cardUp").innerHTML = `
         ${itemList.map(foodTemplate).join('')}
 `;
 
 
+var check;
+
+function foodTemplate(food){
+    
+    
+    var category = `${food.veg}`;
+    if(category === "true"){
+       check = "veg";
+    }else{
+       check = "non-veg";
+    }
+    
+
+    return `
+            <div class="col-sm-5 card m-3 p-3 mb-5">
+                <img src="${food["img-path"][0]}" class="card-img-top food-image-path shadow pt-2" height="200px" widht="100px" alt="...">
+                <div class="card-body p-2">
+                    <h5 class="card-title">${food.name}</h5>
+                    <div class="row d-flex flex-row flex-wrap">
+                    <div class="col-1 food-rating"><p class="card-text"><span class="type">${food.rating}</span></p></div>
+                    <div class="col-10 star-img pl-0"><img src="./assets/rating-star-icon-11-256.png" style="margin-bottom:5px" height="25px" width="25px"></div>
+                    </div>
+                    <p class="card-text"><span class="type">${food.type}</span><span class="veg ml-auto" id="cat" >(${check})</span></p>
+                    <p class="card-text"><span class="level">('spice-level' - ${food["spice-level"]})</span></p>
+                    <button type="submit" class="btn btn-success" onclick="valueSender(${food.id})">Quick View</button>
+                </div>
+            </div>
+            `
+}
+
+(function changeCategoryColor(){
+        console.log(check);
+        var cat = document.getElementsByClassName("veg");
+
+        if(check == "veg"){
+            for (var i = 0; i < cat.length; i++) {
+                cat[i].style.color = "green";
+            }
+        }else{
+            for(var i = 0; i < cat.length; i++) {
+                cat[i].style.color = "red";
+            }
+            
+        }
+})();
+
+//QueryParams
    function valueSender(id){
     window.document.location = './landing-page.html' + '?id='+id;
    }
@@ -176,6 +210,7 @@ document.getElementById("cardUp").innerHTML = `
 
 
 
+   
 
 
 
@@ -189,16 +224,3 @@ document.getElementById("cardUp").innerHTML = `
 
 
 
-
-// const init = function(e){
-//     let btn = document.querySelector("#card-btn");
-//     btn.addEventListener('click', function(){
-//         window.document.location = './landing-page.html' + '?id=' + `${food.id}`;
-//     });
-// };
-
-
-
-// document.addEventListener('DOMContentLoaded', function(){
-//     init();
-// });
