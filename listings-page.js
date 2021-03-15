@@ -784,7 +784,7 @@ function filling() {
             
                 if (itemList[j].type === m[k]) {
 
-                    console.log(document.getElementById("cat").innerHTML);
+                    
 
                      let idis=document.getElementById(`${itemList[j].id}`);
                      console.log(idis);
@@ -832,7 +832,14 @@ function filling() {
         location.reload();
     }
     }
- 
+    // if(){
+    //     alert("item has already added to cart please checkout the cart page.");
+    // }else{
+    //      m[p]= id;
+    //      localStorage.setItem("carts",JSON.stringify(m));   
+    //      window.document.location="./cart-page.html"+"?id="+ id;   
+    // }
+    
 };
 
 
