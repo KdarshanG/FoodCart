@@ -90,8 +90,8 @@ div ul li a:hover {
   height: 400px;
 }
 
-nav #ajapro {
-  color: #e46d47;
+#ajapro {
+  color: #e46d47 !important;
 }
 
 nav a {
@@ -104,6 +104,17 @@ nav a:hover {
   color: #e46d47;
 }
 
+.accordion-button {
+  background-color: #e46d47 !important;
+  opacity: 0.9;
+  color: white !important;
+}
+
+span .check label:hover {
+  cursor: pointer;
+  color: #e46d47 !important;
+}
+
 .card .btn-outline {
   color: #e46d47;
   -webkit-box-shadow: 1px 1px 3px #aad8aa;
@@ -111,8 +122,7 @@ nav a:hover {
 }
 
 .card:hover {
-  -webkit-box-shadow: 2px 2px 2px 3px #e46d47;
-          box-shadow: 2px 2px 2px 3px #e46d47;
+  border: 0.1rem solid #e46d47;
 }
 
 .card .btn-outline:hover {

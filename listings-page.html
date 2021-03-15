@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AjaProFoodCart-Live to Eat</title>
+  <title>AjaProFoodCartExample-Live to Eat</title>
   <link rel="stylesheet" href="listings-page.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 
@@ -127,37 +127,105 @@
   <div class="container">
     <div class="row">
       <div class="container-fluid col-sm-3">
-        <nav id="navbar-example3" class="navbar navbar-default navbar-static border mt-3 shadow navbar-light bg-light sticky-sm-top" style="position: sticky;" id="sidebar">
-          <a href="#" class="navbar-brand mt-1">
-            <div class="display-6 font-weight-bold" id="ajapro">AjaPro</div>
-          </a>
-          <nav class="nav nav-pills nav-stacked flex-column mt-3">
-            <a class="nav-link nav-link-head font-weight-bold h4" href="#veg">Veg</a>
+        <!-- <nav id="navbar-example3"
+          class="navbar navbar-default navbar-static border mt-3 shadow navbar-light bg-light sticky-sm-top"
+          id="sidebar"> -->
+          <!-- <a href="listings-page.html" class="navbar-brand mt-1"> -->
+          <div class="display-6 font-weight-bold" id="ajapro">AjaPro</div>
+          <!-- </a>  -->
+          <!-- <nav class="nav nav-pills nav-stacked flex-column mt-3"> -->
+            <!-- <a class="nav-link nav-link-head font-weight-bold h4">Veg</a>
             <nav class="nav nav-pills flex-column">
-              <a class="nav-link ms-3 my-1" href="#breakfast">Breakfast</a>
-              <a class="nav-link ms-3 my-1" href="#veg-starters">Starters</a>
-              <a class="nav-link ms-3 my-1" href="#veg-main-course">MainCourse</a>
+              <span class="text-muted"><input type="checkbox" id="vegBreakfast" name="veg-Breakfast" value="Breakfast" class="check"><label for="vegBreakfast">Breakfast</label></span>
+              <span class="text-muted"><input type="checkbox" id="vegStarters" name="veg-Starters" value="Starters" class="check"><label for="vegStarters">Starters</label></span>
+              <span class="text-muted"><input type="checkbox" id="vegMainCourse" name="veg-MainCourse" value="MainCourse" class="check"><label for="vegMainCourse">MainCourse</label></span>
             </nav>
+            <section class="_167Mu3 _2hbLCH"><div class="_213eRC _2ssEMF"><div class="_2gmUFU _3V8rao">RAM</div><svg width="16" height="27" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="ttx38n _3DyGEM"><path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="IIvmWM"></path></svg></div><div class="_3FPh42"><div class="_2d0we9"><div class="_4921Z t0pPfW" title="4 GB"><div class="_1Y4Vhm _4FO7b6"><div class="_2iDkf8 t0pPfW"><label><input type="checkbox" class="_30VH1S" readonly="" value="on"><div class="_24_Dny"></div><div class="_3879cV">4 GB</div></label></div></div></div><div class="_4921Z t0pPfW" title="3 GB"><div class="_1Y4Vhm _4FO7b6"><div class="_2iDkf8 t0pPfW"><label><input type="checkbox" class="_30VH1S" readonly="" value="on"><div class="_24_Dny"></div><div class="_3879cV">3 GB</div></label></div></div></div><div class="_4921Z t0pPfW" title="2 GB"><div class="_1Y4Vhm _4FO7b6"><div class="_2iDkf8 t0pPfW"><label><input type="checkbox" class="_30VH1S" readonly="" value="on"><div class="_24_Dny"></div><div class="_3879cV">2 GB</div></label></div></div></div><div class="_4921Z t0pPfW" title="1 GB"><div class="_1Y4Vhm _4FO7b6"><div class="_2iDkf8 t0pPfW"><label><input type="checkbox" class="_30VH1S" readonly="" value="on"><div class="_24_Dny"></div><div class="_3879cV">1 GB</div></label></div></div></div></div></div></section>
 
             <a class="nav-link nav-link-head font-weight-bold h4" href="#non-veg">Non-Veg</a>
             <nav class="nav nav-pills flex-column">
-              <a class="nav-link ms-3 my-1" href="#non-veg-starters">Starters</a>
-              <a class="nav-link ms-3 my-1" href="#non-veg-main-course">Main-Course</a>
+              <span class="text-muted"><input type="checkbox" id="nonVegStarters" name="nonVeg-Starters" value="Starters" class="check"><label for="nonVegStarters">Starters</label></span>
+              <span class="text-muted"><input type="checkbox" id="nonVegMainCourse" name="nonVeg-MainCourse" value="MainCourse" class="check"><label for="nonVegMainCourse">MainCourse</label></span>
             </nav>
-            <a class="nav-link nav-link-head font-weight-bold h4" href="#desserts">Desserts</a>
 
-          </nav>
-        </nav>
+            <a class="nav-link nav-link-head font-weight-bold h4" id="desserts" name="desserts" href="#desserts">Desserts</a>
+
+          </nav> -->
+          
+            <div class="accordion mt-3 mb-3 border navbar-default navbar-static border mt-3 shadow navbar-light bg-light sticky-sm-top" id="accordionExample">
+              <div class="accordion-item">
+                <div class="h4 font-weight-bold mt-3 mb-4" id="filter">Filters</div>
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Vegetarian
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <nav class="nav nav-pills flex-column">
+                      <span class="text-muted"><input type="checkbox" id="vegBreakfast" name="veg-Breakfast"
+                          value="breakfast" class="check"><label for="vegBreakfast">Breakfast</label></span>
+                      <span class="text-muted"><input type="checkbox" id="vegStarters" name="veg-Starters"
+                          value="starters" class="check"><label for="vegStarters">Starters</label></span>
+                      <span class="text-muted"><input type="checkbox" id="vegMainCourse" name="veg-MainCourse"
+                          value="maincourse" class="check"><label for="vegMainCourse">MainCourse</label></span>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Non-Vegetarian
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <nav class="nav nav-pills flex-column">
+                      <span class="text-muted"><input type="checkbox" id="nonVegStarters" name="nonVeg-Starters"
+                          value="nonvegstarters" class="check"><label for="nonVegStarters">Starters</label></span>
+                      <span class="text-muted"><input type="checkbox" id="nonVegMainCourse" name="nonVeg-MainCourse"
+                          value="nonvegmaincourse" class="check"><label for="nonVegMainCourse">MainCourse</label></span>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Desserts
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <nav class="nav nav-pills flex-column">
+                      <span class="text-muted"><input type="checkbox" id="dessert" name="desserts"
+                          value="desserts" class="check"><label for="dessert">Desserts</label></span>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
       </div>
+          <!-- </nav> -->
+      <!-- </div> -->
 
       <!--side-navbar-ends-->
 
 
       <!--main div logic starts-->
-      <div class="col-sm-9">
+      <div class="col-sm-9 border">
         <div class="d-flex flex-wrap" id="cardUp">
 
         </div>
+        <div class="d-flex flex-wrap" id="cardDown"></div>
+      </div>
       </div>
       <!-- main div logic ends-->
 
@@ -168,7 +236,7 @@
   <!--Main div ends-->
 
   <!--footer-starts-->
-  <div class="container-fluid m-4  border footer shadow">
+  <div class="container-fluid m-4 border footer shadow">
     <div class="row footer-top pt-3">
       <div class="col-xs-12 col-sm-4 pl-5 footers-one">
         <h5 class="pl-4">Essentials</h5>
