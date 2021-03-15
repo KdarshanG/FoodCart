@@ -673,8 +673,8 @@ for (var j = 0; j < array.length; j++) {
             <div class="col-sm-7">
                 <br>
                 <div class="d-flex flex-column">
-                    <h4>${itemList[i-1].name}</h4>
-                    <h6>Brand: ${itemList[i-1].brand}</h6>
+                    <h4>${itemList[i-1].name}</h4><div class="mr-auto"><span>${itemList[i-1].veg ? 'veg':'non-veg'}</span></div>
+                    <h6 class="mt-2">${itemList[i-1].type}</h6>
                     <h5 style="color:green">$${itemList[i-1].price}</h5>
                     <button type="button" class="btn-outline-danger" style="border-radius:10px;width:50%" onclick=removeItem(${itemList[i].id})>Remove Item</button>
                 </div>

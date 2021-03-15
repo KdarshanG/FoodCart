@@ -670,7 +670,7 @@ const itemList = [
         if(id==val){
             // console.log(itemList[i].id);
             var name = itemList[i].name;
-            var spiceLevel = itemList[i].spiceLevel;
+            var spiceLevel = itemList[i]["spice-level"];
             var price = itemList[i].price;
             var desc = itemList[i].description;
             var category = itemList[i].veg;

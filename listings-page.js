@@ -641,87 +641,6 @@ const itemList = [
             "assets/capm-1.jpg",
             "assets/capm-2.jpg"
         ]
-    },
-    {
-        "id": 24,
-        "name": "Capsicum Masala",
-        "spice-level": "high",
-        "price": 170,
-        "description": "a simple, easy and rich gravy based curry made with peanuts, dry coconut and capsicum.",
-        "veg": true,
-        "type": "maincourse",
-        "type-category": "veg-main-course",
-        "rating": 4,
-        "comments": [
-            {
-                "reviewedBy": "John",
-                "review": "Excellent Capsicum Masala",
-                "reviewedDate": "10/03/2020"
-            },
-            {
-                "reviewedBy": "Joe",
-                "review": "best Capsicum Masala I ever had",
-                "reviewedDate": "11/03/2020"
-            }
-        ],
-        "img-path": [
-            "assets/capm-1.jpg",
-            "assets/capm-2.jpg"
-        ]
-    },
-    {
-        "id": 24,
-        "name": "Capsicum Masala",
-        "spice-level": "high",
-        "price": 170,
-        "description": "a simple, easy and rich gravy based curry made with peanuts, dry coconut and capsicum.",
-        "veg": true,
-        "type": "maincourse",
-        "type-category": "veg-main-course",
-        "rating": 4,
-        "comments": [
-            {
-                "reviewedBy": "John",
-                "review": "Excellent Capsicum Masala",
-                "reviewedDate": "10/03/2020"
-            },
-            {
-                "reviewedBy": "Joe",
-                "review": "best Capsicum Masala I ever had",
-                "reviewedDate": "11/03/2020"
-            }
-        ],
-        "img-path": [
-            "assets/capm-1.jpg",
-            "assets/capm-2.jpg"
-        ]
-    },
-    {
-        "id": 24,
-        "name": "Capsicum Masala",
-        "spice-level": "high",
-        "price": 170,
-        "description": "a simple, easy and rich gravy based curry made with peanuts, dry coconut and capsicum.",
-        "veg": true,
-        "type": "maincourse",
-        "type-category": "veg-main-course",
-        "rating": 4,
-        "comments": [
-            {
-                "reviewedBy": "John",
-                "review": "Excellent Capsicum Masala",
-                "reviewedDate": "10/03/2020"
-            },
-            {
-                "reviewedBy": "Joe",
-                "review": "best Capsicum Masala I ever had",
-                "reviewedDate": "11/03/2020"
-            }
-        ],
-        "img-path": [
-            "assets/capm-1.jpg",
-            "assets/capm-2.jpg"
-        ]
     }
 
 ];
@@ -789,12 +708,9 @@ function valueSender(id) {
 }
 
 
-//filters
-
-// var jar = ["car","bike","truck"];
-// console.log(jar);
 
 
+// filters backendLogic
 
 const filter = document.getElementsByClassName('check');
 // var filters=[];
@@ -821,8 +737,6 @@ for (let j = 0; j < filter.length; j++) {
                 localStorage.setItem("fill", JSON.stringify(m));
             }
 
-            // filters.push(filter[j].value);
-            // cardUp.remove();
         }
         else {
             let arr = localStorage.getItem("fill");
@@ -833,32 +747,10 @@ for (let j = 0; j < filter.length; j++) {
             array.splice(f, 1);
 
             localStorage.setItem("fill", JSON.stringify(array));
-            // console.log(filters.indexOf(filter[j].value));
-            // let f = filters.indexOf(filter[j].value);
-            // filters.splice(f,1);
-
         }
         filling();
     })
-}    // if(e.target.checked){
-//     filters.push(e.target.value);
-// }else{
-//     // console.log(e.target.checked);
-//     console.log(filters.indexOf(e.target.value));
-//     let f = filters.indexOf(e.target.value);
-//     filters.splice(f,1);
-// }
-//         window.location.reload;
-//     })
-// }
-// const map = new Map(Object.entries(filters));
-// console.log(map);
-// console.log(filters);
-
-// const fillers = Object.values(filters);
-// console.log(fillers);
-
-// console.log()
+}    
 
 console.log(typeof itemList[0].type);
 
@@ -892,14 +784,23 @@ function filling() {
             
                 if (itemList[j].type === m[k]) {
 
+                    console.log(document.getElementById("cat").innerHTML);
 
+                     let idis=document.getElementById(`${itemList[j].id}`);
+                     console.log(idis);
+                     if(idis!==null){
+                     let idiss=document.getElementById(`${itemList[j].id}`);
+                        idiss.remove();
+
+                     }
 
                     let maindiv = document.getElementById("cardDown");
                     let cmntdiv = document.createElement("div");
                     cmntdiv.classList.add("col-sm-5", "col-lg-4", "offset-md-1", "offset-lg-0", "card", "mb-5")
+                    cmntdiv.setAttribute('id',`${itemList[j].id}`)
                     let cmnt = `
-        
-                        <img src="${itemList[j]["img-path"][0]}" class="card-img-top food-image-path shadow pt-2" height="200px" widht="100px" alt="...">
+                        
+                        <img src="${itemList[j]["img-path"][0]}" " class="card-img-top food-image-path shadow pt-2" height="200px" widht="100px" alt="...">
                         <div class="card-body p-2">
                             <h5 class="card-title">${itemList[j].name}</h5>
                             <div class="row d-flex flex-row flex-wrap">
@@ -916,6 +817,10 @@ function filling() {
                     maindiv.appendChild(cmntdiv);
                     // console.log(cmntdiv);
                 }
+                // console.log(cardDown.children.length)
+                // console.log(cardDown.children)
+
+
             }
         }
 
@@ -927,13 +832,7 @@ function filling() {
         location.reload();
     }
     }
-    // if(){
-    //     alert("item has already added to cart please checkout the cart page.");
-    // }else{
-    //      m[p]= id;
-    //      localStorage.setItem("carts",JSON.stringify(m));   
-    //      window.document.location="./cart-page.html"+"?id="+ id;   
-    // }
+ 
 };
 
 
