@@ -213,10 +213,10 @@ const itemList = [
     },
     {
         "id": 9,
-        "name": "Corn Spinach Cutlet",
+        "name": "Aloo Tikki",
         "spice-level": "medium",
-        "price": 90,
-        "description": "Corn Spinach Cutlet is a shallow fried Indian Starter made for potato,oinions and spices",
+        "price": 100,
+        "description": "So these are potato patties made the Indian way – spiced, herby and delicious",
         "veg": true,
         "type": "starters",
         "type-category": "Indian",
@@ -224,18 +224,18 @@ const itemList = [
         "comments": [
             {
                 "reviewedBy": "John",
-                "review": "Excellent corn spinach cutlet",
+                "review": "Excellent aloo tikki",
                 "reviewedDate": "10/03/2020"
             },
             {
                 "reviewedBy": "Joe",
-                "review": "best corn spinach cutlet I ever had",
+                "review": "best aloo tikka I ever had",
                 "reviewedDate": "11/03/2020"
             }
         ],
         "img-path": [
-            "assets/csc-1.jpg",
-            "assets/csc-2.jpg"
+            "assets/at-1.jpg",
+            "assets/at-2.jpg"
         ]
     },
     {
@@ -267,10 +267,10 @@ const itemList = [
     },
     {
         "id": 11,
-        "name": "Aloo Tikki",
+        "name": "Corn Spinach Cutlet",
         "spice-level": "medium",
-        "price": 100,
-        "description": "So these are potato patties made the Indian way – spiced, herby and delicious",
+        "price": 90,
+        "description": "Corn Spinach Cutlet is a shallow fried Indian Starter made for potato,oinions and spices",
         "veg": true,
         "type": "starters",
         "type-category": "Indian",
@@ -278,45 +278,45 @@ const itemList = [
         "comments": [
             {
                 "reviewedBy": "John",
-                "review": "Excellent aloo tikki",
+                "review": "Excellent corn spinach cutlet",
                 "reviewedDate": "10/03/2020"
             },
             {
                 "reviewedBy": "Joe",
-                "review": "best aloo tikka I ever had",
+                "review": "best corn spinach cutlet I ever had",
                 "reviewedDate": "11/03/2020"
             }
         ],
         "img-path": [
-            "assets/at-1.jpg",
-            "assets/at-2.jpg"
+            "assets/csc-1.jpg",
+            "assets/csc-2.jpg"
         ]
     },
     {
         "id": 12,
-        "name": "Gobi Pepper Dry",
+        "name": "Mushroom Manchurian",
         "spice-level": "medium",
-        "price": 120,
-        "description": "Gobbi Pepper dry is an Indian appetizer where gobi are marinated in spiced flour & deep fried.",
+        "price": 150,
+        "description": "This is a popular Indian-Chinese vegetarian snack recipe crispy fried mushroom tossed in a spicy, sweet & umami sauce.",
         "veg": true,
         "type": "starters",
-        "type-category": "Indian",
+        "type-category": "Chinese",
         "rating": 4,
         "comments": [
             {
                 "reviewedBy": "John",
-                "review": "Excellent gobi pepper dry.",
+                "review": "Excellent Mushroom Manchurian",
                 "reviewedDate": "10/03/2020"
             },
             {
                 "reviewedBy": "Joe",
-                "review": "best gobi pepper dry I ever had",
+                "review": "best Mushroom Manchurian I ever had",
                 "reviewedDate": "11/03/2020"
             }
         ],
         "img-path": [
-            "assets/gpd-1.jpg",
-            "assets/gpd-2.jpg"
+            "assets/mm-1.jpg",
+            "assets/mm-2.jpg"
         ]
     },
     {
@@ -375,29 +375,29 @@ const itemList = [
     },
     {
         "id": 15,
-        "name": "Mushroom Manchurian",
+        "name": "Gobi Pepper Dry",
         "spice-level": "medium",
-        "price": 150,
-        "description": "This is a popular Indian-Chinese vegetarian snack recipe crispy fried mushroom tossed in a spicy, sweet & umami sauce.",
+        "price": 120,
+        "description": "Gobbi Pepper dry is an Indian appetizer where gobi are marinated in spiced flour & deep fried.",
         "veg": true,
         "type": "starters",
-        "type-category": "Chinese",
+        "type-category": "Indian",
         "rating": 4,
         "comments": [
             {
                 "reviewedBy": "John",
-                "review": "Excellent Mushroom Manchurian",
+                "review": "Excellent gobi pepper dry.",
                 "reviewedDate": "10/03/2020"
             },
             {
                 "reviewedBy": "Joe",
-                "review": "best Mushroom Manchurian I ever had",
+                "review": "best gobi pepper dry I ever had",
                 "reviewedDate": "11/03/2020"
             }
         ],
         "img-path": [
-            "assets/mm-1.jpg",
-            "assets/mm-2.jpg"
+            "assets/gpd-1.jpg",
+            "assets/gpd-2.jpg"
         ]
     },
     {
@@ -641,6 +641,33 @@ const itemList = [
             "assets/capm-1.jpg",
             "assets/capm-2.jpg"
         ]
+    },
+    {
+        "id": 25,
+        "name": "Chicken Masala",
+        "spice-level": "high",
+        "price": 270,
+        "description": "a simple, easy and rich gravy based curry made with chicken, dry coconut and capsicum.",
+        "veg": false,
+        "type": "nonvegstarters",
+        "type-category": "nonveg-main-course",
+        "rating": 4,
+        "comments": [
+            {
+                "reviewedBy": "John",
+                "review": "Excellent Chicken Masala",
+                "reviewedDate": "10/03/2020"
+            },
+            {
+                "reviewedBy": "Joe",
+                "review": "best Chicken Masala I ever had",
+                "reviewedDate": "11/03/2020"
+            }
+        ],
+        "img-path": [
+            "assets/capm-1.jpg",
+            "assets/capm-2.jpg"
+        ]
     }
 
 ];
@@ -659,55 +686,31 @@ var check;
 function foodTemplate(food) {
 
 
-    var category = `${food.veg}`;
-    if (category === "true") {
-        check = "veg";
-    } else {
-        check = "non-veg";
-    }
-
-
     return `
             <div class="col-sm-5 col-lg-4 offset-md-1 offset-lg-0 card p-3  mb-5">
                 <img src="${food["img-path"][0]}" class="card-img-top food-image-path shadow pt-2" height="200px" widht="100px" alt="...">
                 <div class="card-body p-2">
-                    <h5 class="card-title">${food.name}</h5>
-                    <div class="row d-flex flex-row flex-wrap">
+                <div class="row card-title-com d-flex align-content-center">
+                    <h6 class="card-title col-10 ">${food.name}</h6>
+                    <div class="col-2  pr-0 veg ${food.veg ? "text-success":"text-danger"} d-flex justify-content-end" id="cat" >${food.veg ? '<img src="https://img.icons8.com/color/36/000000/vegetarian-food-symbol.png"/  height="35px" width="45px">':'<img src="https://img.icons8.com/color/36/000000/non-vegetarian-food-symbol.png"/>'}</div>
+                </div>    
+                    <div class="row d-flex flex-row flex-wrap ">
                     <div class="col-1 food-rating"><p class="card-text"><span class="type">${food.rating}</span></p></div>
-                    <div class="col-10 star-img pl-0"><img src="./assets/rating-star-icon-11-256.png" style="margin-bottom:5px" height="25px" width="25px"></div>
+                    <div class="col-2 star-img pl-0"><img src="./assets/rating-star-icon-11-256.png" style="margin-bottom:5px" height="25px" width="25px"></div>
                     </div>
-                    <p class="card-text"><span class="type">${food.type}</span><span class="veg ml-auto" id="cat" >(${check})</span></p>
-                    <p class="card-text"><span class="level">('spice-level' - ${food["spice-level"]})</span></p>
+                    <h6 class="card-text pt-1"><span class="type">${food.type}</span></h6>
+                    <h6 class="card-text pb-1">spice-level: <span class="level ${food["spice-level"]==="high"? "text-danger":"text-success"}">${food["spice-level"]}</span></h6>
                     <button type="submit" class="btn btn-success" onclick="valueSender(${food.id})">Quick View</button>
                 </div>
             </div>
             `
 }
 
-(function changeCategoryColor() {
-    // console.log(check);
-    var cat = document.getElementsByClassName("veg");
-
-    if (check == "veg") {
-        for (var i = 0; i < cat.length; i++) {
-            cat[i].style.color = "green";
-        }
-    } else {
-        for (var i = 0; i < cat.length; i++) {
-            cat[i].style.color = "red";
-        }
-
-    }
-})();
-
-
 
 //QueryParams
 function valueSender(id) {
     window.document.location = './landing-page.html' + '?id=' + id;
 }
-
-
 
 
 // filters backendLogic
@@ -718,7 +721,7 @@ const filter = document.getElementsByClassName('check');
 // console.log(filters);
 for (let j = 0; j < filter.length; j++) {
     filter[j].addEventListener('change', function (e) {
-        console.log(e.target.checked);
+        // console.log(e.target.checked);
 
         if (filter[j].checked) {
 
@@ -736,7 +739,7 @@ for (let j = 0; j < filter.length; j++) {
                 m[p] = filter[j].value;
                 localStorage.setItem("fill", JSON.stringify(m));
             }
-
+            filling();
         }
         else {
             let arr = localStorage.getItem("fill");
@@ -765,7 +768,7 @@ let filt = localStorage.getItem("fill");
 function filling() {
     let filt = localStorage.getItem("fill");
     let m = JSON.parse(filt);
-    console.log(typeof m);
+    // console.log(typeof m);
     let p = m.length;
     if (p != 0) {
         cardUp.remove();
@@ -774,26 +777,19 @@ function filling() {
         // var flag = false;
         for (let j = 0; j < itemList.length; j++) {
             for (let k = 0; k < p; k++) {
-
-            var category = `${itemList[j].veg}`;
-            if (category === "true") {
-                check = "veg";
-            } else {
-                check = "non-veg";
-            }
             
                 if (itemList[j].type === m[k]) {
 
                     
-
+                    var filler = [];
                      let idis=document.getElementById(`${itemList[j].id}`);
                      console.log(idis);
                      if(idis!==null){
                      let idiss=document.getElementById(`${itemList[j].id}`);
+                     filler.push(idiss)
                         idiss.remove();
-
                      }
-
+                     console.log(filler)
                     let maindiv = document.getElementById("cardDown");
                     let cmntdiv = document.createElement("div");
                     cmntdiv.classList.add("col-sm-5", "col-lg-4", "offset-md-1", "offset-lg-0", "card", "mb-5")
@@ -801,17 +797,19 @@ function filling() {
                     let cmnt = `
                         
                         <img src="${itemList[j]["img-path"][0]}" " class="card-img-top food-image-path shadow pt-2" height="200px" widht="100px" alt="...">
-                        <div class="card-body p-2">
-                            <h5 class="card-title">${itemList[j].name}</h5>
-                            <div class="row d-flex flex-row flex-wrap">
+                        <div class="card-body p-2 ">
+                        <div class="row card-title-com d-flex align-content-center">
+                            <h6 class="card-title col-10 ">${itemList[j].name}</h6>
+                            <div class="col-2  pr-0 veg ${itemList[j].veg ? "text-success":"text-danger"} d-flex justify-content-end" id="cat" >${itemList[j].veg ? '<img src="https://img.icons8.com/color/36/000000/vegetarian-food-symbol.png"/  height="35px" width="45px">':'<img src="https://img.icons8.com/color/36/000000/non-vegetarian-food-symbol.png"/>'}</div>
+                        </div>    
+                            <div class="row d-flex flex-row flex-wrap ">
                             <div class="col-1 food-rating"><p class="card-text"><span class="type">${itemList[j].rating}</span></p></div>
-                            <div class="col-10 star-img pl-0"><img src="./assets/rating-star-icon-11-256.png" style="margin-bottom:5px" height="25px" width="25px"></div>
+                            <div class="col-2 star-img pl-0"><img src="./assets/rating-star-icon-11-256.png" style="margin-bottom:5px" height="25px" width="25px"></div>
                             </div>
-                            <p class="card-text"><span class="type">${itemList[j].type}</span><span class="veg ml-auto" id="cat" >(${check})</span></p>
-                            <p class="card-text"><span class="level">('spice-level' - ${itemList[j]["spice-level"]})</span></p>
+                            <h6 class="card-text pt-1"><span class="type">${itemList[j].type}</span></h6>
+                            <h6 class="card-text pb-1">spice-level: <span class="level ${itemList[j]["spice-level"]==="high"? "text-danger":"text-success"}">${itemList[j]["spice-level"]}</span></h6>
                             <button type="submit" class="btn btn-success" onclick="valueSender(${itemList[j].id})">Quick View</button>
                         </div>
-                        
                         `
                     cmntdiv.innerHTML += cmnt;
                     maindiv.appendChild(cmntdiv);
@@ -828,9 +826,16 @@ function filling() {
     }
     else {
         if(p==0){
-        localStorage.removeItem("fill");
-        location.reload();
-    }
+            localStorage.removeItem("fill");
+            location.reload();
+        }
+        let idis=document.getElementById(`${itemList[j].id}`);
+                     console.log(idis);
+                     if(idis!==null){
+                     let idiss=document.getElementById(`${itemList[j].id}`);
+                        idiss.remove();
+                     }
+        
     }
     // if(){
     //     alert("item has already added to cart please checkout the cart page.");
