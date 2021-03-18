@@ -3,7 +3,7 @@
 const itemList = [
     {
         "id": 1,
-        "name": "Idly (2)",
+        "name": "idly (2)",
         "spice-level": "low",
         "price": 30,
         "description": "Idli is a type of savoury rice cake, originating from the Indian subcontinent, popular as breakfast foods in Southern India",
@@ -29,7 +29,7 @@ const itemList = [
     },
     {
         "id": 2,
-        "name": "Masala Dosa",
+        "name": "masala dosa",
         "spice-level": "low",
         "price": 60,
         "description": "Dosa is a type of savoury rice pan cake, originating from the Indian subcontinent, popular as breakfast foods in Southern India",
@@ -55,7 +55,7 @@ const itemList = [
     },
     {
         "id": 3,
-        "name": "Kara Bath",
+        "name": "kara bath",
         "spice-level": "medium",
         "price": 30,
         "description": "Kara Bath is a type of savoury cooked as a thick porridge from dry-roasted semolina, originating from the Indian subcontinent, popular as breakfast foods in Southern India",
@@ -81,7 +81,7 @@ const itemList = [
     },
     {
         "id": 4,
-        "name": "Chow Chow Bath",
+        "name": "chow chow bath",
         "spice-level": "medium",
         "price": 50,
         "description": "Chow Chow Bath is a type of savoury from dry-roasted semolina served with 2dish, originating from the Indian subcontinent, popular as breakfast foods in Southern India",
@@ -107,7 +107,7 @@ const itemList = [
     },
     {
         "id": 5,
-        "name": "Rava Idly",
+        "name": "rava idly",
         "spice-level": "medium",
         "price": 30,
         "description": "Rava Idly is a type of savoury cooked as a thick porridge from dry-roasted semolina , originating from the Indian subcontinent, popular as breakfast foods in Southern India",
@@ -133,7 +133,7 @@ const itemList = [
     },
     {
         "id": 6,
-        "name": "Plain Dosa",
+        "name": "plain dosa",
         "spice-level": "medium",
         "price": 40,
         "description": "Dosa is a type of savoury rice pan cake, originating from the Indian subcontinent, popular as breakfast foods in Southern India",
@@ -159,7 +159,7 @@ const itemList = [
     },
     {
         "id": 7,
-        "name": "Panner tikka dry",
+        "name": "panner tikka dry",
         "spice-level": "medium",
         "price": 130,
         "description": "Paneer tikka is an Indian appetizer where paneer chunks are marinated in spiced yogurt & grilled in a tandoor, a traditional clay oven.",
@@ -186,7 +186,7 @@ const itemList = [
     },
     {
         "id": 8,
-        "name": "Panner grill",
+        "name": "panner grill",
         "spice-level": "high",
         "price": 120,
         "description": " Paneer Grill is an Indian appetizer where paneer chunks are marinated in spiced yogurt & grilled in a tandoor, a traditional clay oven.",
@@ -213,7 +213,7 @@ const itemList = [
     },
     {
         "id": 9,
-        "name": "Aloo Tikki",
+        "name": "aloo tikki",
         "spice-level": "medium",
         "price": 100,
         "description": "So these are potato patties made the Indian way – spiced, herby and delicious",
@@ -240,7 +240,7 @@ const itemList = [
     },
     {
         "id": 10,
-        "name": "Panner Cheese Ball",
+        "name": "panner cheese ball",
         "spice-level": "high",
         "price": 150,
         "description": "Panner cheese ball is a deep fried Indain Starter made from panner, processed cheese, onions and spices",
@@ -267,7 +267,7 @@ const itemList = [
     },
     {
         "id": 11,
-        "name": "Corn Spinach Cutlet",
+        "name": "corn spinach cutlet",
         "spice-level": "medium",
         "price": 90,
         "description": "Corn Spinach Cutlet is a shallow fried Indian Starter made for potato,oinions and spices",
@@ -294,7 +294,7 @@ const itemList = [
     },
     {
         "id": 12,
-        "name": "Mushroom Manchurian",
+        "name": "mushroom manchurian",
         "spice-level": "medium",
         "price": 150,
         "description": "This is a popular Indian-Chinese vegetarian snack recipe crispy fried mushroom tossed in a spicy, sweet & umami sauce.",
@@ -321,7 +321,7 @@ const itemList = [
     },
     {
         "id": 13,
-        "name": "Gobi Manchurian",
+        "name": "gobi manchurian",
         "spice-level": "medium",
         "price": 140,
         "description": "This is a popular Indian-Chinese vegetarian snack recipe crispy fried cauliflower florets tossed in a spicy, sweet & umami sauce.",
@@ -348,7 +348,7 @@ const itemList = [
     },
     {
         "id": 14,
-        "name": "Chilli Panner",
+        "name": "chilli panner",
         "spice-level": "high",
         "price": 120,
         "description": "Chilli Paneer is one of the popular recipe from the Indian Chinese cuisine. ",
@@ -375,7 +375,7 @@ const itemList = [
     },
     {
         "id": 15,
-        "name": "Gobi Pepper Dry",
+        "name": "gobi pepper dry",
         "spice-level": "medium",
         "price": 120,
         "description": "Gobbi Pepper dry is an Indian appetizer where gobi are marinated in spiced flour & deep fried.",
@@ -402,7 +402,7 @@ const itemList = [
     },
     {
         "id": 16,
-        "name": "Baby corn Manchurian",
+        "name": "baby corn manchurian",
         "spice-level": "high",
         "price": 140,
         "description": "This is a popular Indian-Chinese vegetarian snack recipe crispy fried baby corn tossed in a spicy, sweet & umami sauce.",
@@ -429,7 +429,7 @@ const itemList = [
     },
     {
         "id": 17,
-        "name": "Baby corn Chilli",
+        "name": "baby corn chilli",
         "spice-level": "high",
         "price": 150,
         "description": "This is a popular Indian-Chinese vegetarian snack recipe crispy fried baby corn tossed in a spicy,  green chillies & umami sauce.",
@@ -456,7 +456,7 @@ const itemList = [
     },
     {
         "id": 18,
-        "name": "Mushroom Chilli",
+        "name": "mushroom chilli",
         "spice-level": "high",
         "price": 170,
         "description": "This is a popular Indian-Chinese vegetarian snack recipe crispy fried mushroom tossed in a spicy, green chillies & umami sauce.",
@@ -482,7 +482,7 @@ const itemList = [
     },
     {
         "id": 19,
-        "name": "Chana Masala",
+        "name": "chana masala",
         "spice-level": "high",
         "price": 140,
         "description": "Indian curry made by cooking chickpeas in a spicy onion tomato masala gravy.",
@@ -509,7 +509,7 @@ const itemList = [
     },
     {
         "id": 20,
-        "name": "Chana Panner Masala",
+        "name": "chana panner masala",
         "spice-level": "high",
         "price": 120,
         "description": "Indian curry made by cooking chickpeas and panner in a spicy onion tomato masala gravy. ",
@@ -536,7 +536,7 @@ const itemList = [
     },
     {
         "id": 21,
-        "name": "Plain Palak",
+        "name": "plain palak",
         "spice-level": "medium",
         "price": 150,
         "description": " Palak Paneer is a popular Indian dish of Indian cottage cheese cubes in a mild, spiced smooth spinach sauce.",
@@ -563,7 +563,7 @@ const itemList = [
     },
     {
         "id": 22,
-        "name": "Paneer Butter Masala",
+        "name": "paneer Butter masala",
         "spice-level": "medium",
         "price": 160,
         "description": "Also known as butter paneer, it is a rich & creamy curry made with paneer, spices, onions, tomatoes, cashews and butter.",
@@ -590,7 +590,7 @@ const itemList = [
     },
     {
         "id": 23,
-        "name": "Panner Tikka Masala",
+        "name": "panner tikka masala",
         "spice-level": "medium",
         "price": 150,
         "description": "Also known as butter panner, it is a rich & creamy curry made with panner, spices, onions, tomatoes, cashews and butter.",
@@ -617,7 +617,7 @@ const itemList = [
     },
     {
         "id": 24,
-        "name": "Capsicum Masala",
+        "name": "capsicum masala",
         "spice-level": "high",
         "price": 170,
         "description": "a simple, easy and rich gravy based curry made with peanuts, dry coconut and capsicum.",
@@ -644,37 +644,260 @@ const itemList = [
     },
     {
         "id": 25,
-        "name": "Chicken Masala",
+        "name": "chicken 65",
         "spice-level": "high",
-        "price": 270,
-        "description": "a simple, easy and rich gravy based curry made with chicken, dry coconut and capsicum.",
+        "price": 250,
+        "description": "a simple, easy starter made with chicken, dry coconut and capsicum.",
         "veg": false,
         "type": "nonvegstarters",
-        "type-category": "nonveg-main-course",
-        "rating": 4,
+        "type-category": "starters",
+        "rating": 3,
         "comments": [
             {
                 "reviewedBy": "John",
-                "review": "Excellent Chicken Masala",
+                "review": "Excellent Chicken 65",
                 "reviewedDate": "10/03/2020"
             },
             {
                 "reviewedBy": "Joe",
-                "review": "best Chicken Masala I ever had",
+                "review": "best Chicken 65 I ever had",
                 "reviewedDate": "11/03/2020"
             }
         ],
         "img-path": [
-            "assets/capm-1.jpg",
-            "assets/capm-2.jpg"
+            "assets/c65-1.jpg",
+            "assets/c65-2.jpg"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "chicken majetic",
+        "spice-level": "high",
+        "price": 270,
+        "description": "a simple, easy starter made with chicken, dry chilli and capsicum.",
+        "veg": false,
+        "type": "nonvegstarters",
+        "type-category": "starters",
+        "rating": 5,
+        "comments": [
+            {
+                "reviewedBy": "John",
+                "review": "Excellent Chicken majestic",
+                "reviewedDate": "10/03/2020"
+            },
+            {
+                "reviewedBy": "Joe",
+                "review": "best Chicken majestic I ever had",
+                "reviewedDate": "11/03/2020"
+            }
+        ],
+        "img-path": [
+            "assets/cmajestic-1.jpg",
+            "assets/cmajestic-2.jpg"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "chilli chicken",
+        "spice-level": "high",
+        "price": 270,
+        "description": "a simple, easy and rich startes  made with chicken, chilli and capsicum.",
+        "veg": false,
+        "type": "nonvegstarters",
+        "type-category": "starters",
+        "rating": 4,
+        "comments": [
+            {
+                "reviewedBy": "John",
+                "review": "Excellent Chicken chicken",
+                "reviewedDate": "10/03/2020"
+            },
+            {
+                "reviewedBy": "Joe",
+                "review": "best Chicken chicken I ever had",
+                "reviewedDate": "11/03/2020"
+            }
+        ],
+        "img-path": [
+            "assets/cchicken-1.jpg",
+            "assets/cchicken-2.jpg"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "butter chicken",
+        "spice-level": "medium",
+        "price": 240,
+        "description": "Straight from a Punjabi kitchen, butter chicken has been an instant hit through the years. Enjoy the classic creaminess of the dish with this recipe.",
+        "veg": false,
+        "type": "nonvegmaincourse",
+        "type-category": "maincourse",
+        "rating": 4,
+        "comments": [
+            {
+                "reviewedBy": "John",
+                "review": "Excellent butter chicken",
+                "reviewedDate": "10/03/2020"
+            },
+            {
+                "reviewedBy": "Joe",
+                "review": "best butter chicken I ever had",
+                "reviewedDate": "11/03/2020"
+            }
+        ],
+        "img-path": [
+            "assets/cchicken-1.jpg",
+            "assets/cchicken-2.jpg"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "amritsari chicken masala",
+        "spice-level": "high",
+        "price": 240,
+        "description": "Boneless chunks of chicken lathered with a rich, buttery gravy of cream, tomatoes and spices.",
+        "veg": false,
+        "type": "nonvegmaincourse",
+        "type-category": "maincourse",
+        "rating": 4,
+        "comments": [
+            {
+                "reviewedBy": "John",
+                "review": "Excellent amritsari chicken masala",
+                "reviewedDate": "10/03/2020"
+            },
+            {
+                "reviewedBy": "Joe",
+                "review": "best amritsari chicken masala I ever had",
+                "reviewedDate": "11/03/2020"
+            }
+        ],
+        "img-path": [
+            "assets/acm-1.jpg",
+            "assets/acm-2.jpg"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "chicken dum biriyani",
+        "spice-level": "high",
+        "price": 220,
+        "description": "A sumptuous chicken biryani cooked with such precision that none of the flavors are allowed to change color. 'Dum' is a slow cooking method brought in by the Mughals.",
+        "veg": false,
+        "type": "nonvegmaincourse",
+        "type-category": "maincourse",
+        "rating": 4,
+        "comments": [
+            {
+                "reviewedBy": "John",
+                "review": "Excellent chicken dum biriyani",
+                "reviewedDate": "10/03/2020"
+            },
+            {
+                "reviewedBy": "Joe",
+                "review": "best chicken dum biriyani I ever had",
+                "reviewedDate": "11/03/2020"
+            }
+        ],
+        "img-path": [
+            "assets/cb-1.jpg",
+            "assets/cb-2.jpg"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "gulab jamun",
+        "spice-level": "sweet",
+        "price": 120,
+        "description": "The good old delight made with khoya, fried golden and finally dipped in saffron induced sugar syrup.",
+        "veg": true,
+        "type": "desserts",
+        "type-category": "desserts",
+        "rating": 5,
+        "comments": [
+            {
+                "reviewedBy": "John",
+                "review": "Excellent Gulab Jamun",
+                "reviewedDate": "10/03/2020"
+            },
+            {
+                "reviewedBy": "Joe",
+                "review": "best hot gulab jamun I ever had",
+                "reviewedDate": "11/03/2020"
+            }
+        ],
+        "img-path": [
+            "assets/gj-1.jpg",
+            "assets/gj-2.jpg"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "gajar ka halwa",
+        "spice-level": "sweet",
+        "price": 180,
+        "description": "Warm your winter with this recipe that is sure to delight even the pickiest of dessert eaters! ",
+        "veg": true,
+        "type": "desserts",
+        "type-category": "desserts",
+        "rating": 5,
+        "comments": [
+            {
+                "reviewedBy": "John",
+                "review": "Excellent gajar ka halwa",
+                "reviewedDate": "10/03/2020"
+            },
+            {
+                "reviewedBy": "Joe",
+                "review": "best gajar ka halwa I ever had",
+                "reviewedDate": "11/03/2020"
+            }
+        ],
+        "img-path": [
+            "assets/gkh-1.jpg",
+            "assets/gkh-2.jpg"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "phirni",
+        "spice-level": "sweet",
+        "price": 150,
+        "description": "Another variety of a milk pudding prepared during festive occasions especially Eid and Ramzan. Best served in 'mitti ke kasore' or mud pots.",
+        "veg": true,
+        "type": "desserts",
+        "type-category": "desserts",
+        "rating": 5,
+        "comments": [
+            {
+                "reviewedBy": "John",
+                "review": "Excellent phirni",
+                "reviewedDate": "10/03/2020"
+            },
+            {
+                "reviewedBy": "Joe",
+                "review": "best phirni I ever had",
+                "reviewedDate": "11/03/2020"
+            }
+        ],
+        "img-path": [
+            "assets/phirni-1.jpg",
+            "assets/phirni-2.jpg"
         ]
     }
 
 ];
 
 //Add dynamic card in listing page
-
+var cars = document.getElementById("cars");
 var cardUp = document.getElementById("cardUp");
+var cardUD = document.getElementById("cardUD");
+var cardDown = document.getElementById("cardDown");
+var cardDownUp = document.getElementById("cardDownUp");
+var cardUpDown = document.getElementById("cardUpDown");
+var cardSideUp = document.getElementById("cardSideUp");
+var cardSideDown = document.getElementById("cardSideDown");
+var cardSideUpDown = document.getElementById("cardSideUpDown");
 // console.log(cardUp);
 cardUp.innerHTML = `
         ${itemList.map(foodTemplate).join('')}
@@ -692,14 +915,14 @@ function foodTemplate(food) {
                 <div class="card-body p-2">
                 <div class="row card-title-com d-flex align-content-center">
                     <h6 class="card-title col-10 ">${food.name}</h6>
-                    <div class="col-2  pr-0 veg ${food.veg ? "text-success":"text-danger"} d-flex justify-content-end" id="cat" >${food.veg ? '<img src="https://img.icons8.com/color/36/000000/vegetarian-food-symbol.png"/  height="35px" width="45px">':'<img src="https://img.icons8.com/color/36/000000/non-vegetarian-food-symbol.png"/>'}</div>
+                    <div class="col-2  pr-0 veg ${food.veg ? "text-success" : "text-danger"} d-flex justify-content-end" id="cat" >${food.veg ? '<img src="https://img.icons8.com/color/36/000000/vegetarian-food-symbol.png"/  height="35px" width="45px">' : '<img src="https://img.icons8.com/color/36/000000/non-vegetarian-food-symbol.png"/>'}</div>
                 </div>    
                     <div class="row d-flex flex-row flex-wrap ">
                     <div class="col-1 food-rating"><p class="card-text"><span class="type">${food.rating}</span></p></div>
                     <div class="col-2 star-img pl-0"><img src="./assets/rating-star-icon-11-256.png" style="margin-bottom:5px" height="25px" width="25px"></div>
                     </div>
                     <h6 class="card-text pt-1"><span class="type">${food.type}</span></h6>
-                    <h6 class="card-text pb-1">spice-level: <span class="level ${food["spice-level"]==="high"? "text-danger":"text-success"}">${food["spice-level"]}</span></h6>
+                    <h6 class="card-text pb-1">spice-level: <span class="level ${food["spice-level"] === "high" ? "text-danger" : "text-success"}">${food["spice-level"]}</span></h6>
                     <button type="submit" class="btn btn-success" onclick="valueSender(${food.id})">Quick View</button>
                 </div>
             </div>
@@ -716,9 +939,6 @@ function valueSender(id) {
 // filters backendLogic
 
 const filter = document.getElementsByClassName('check');
-// var filters=[];
-
-// console.log(filters);
 for (let j = 0; j < filter.length; j++) {
     filter[j].addEventListener('change', function (e) {
         // console.log(e.target.checked);
@@ -750,64 +970,161 @@ for (let j = 0; j < filter.length; j++) {
             array.splice(f, 1);
 
             localStorage.setItem("fill", JSON.stringify(array));
+            unfilling();
         }
-        filling();
+
     })
-}    
+}
 
-console.log(typeof itemList[0].type);
-
-
-// console.log("this is the king chair");
-let filt = localStorage.getItem("fill");
-// console.log(JSON.parse(filt));
-// console.log(filt)
+// console.log(typeof itemList[0].type);
 
 
 
+// let filt = localStorage.getItem("fill");
+
+
+
+//oncheck function call
 function filling() {
     let filt = localStorage.getItem("fill");
     let m = JSON.parse(filt);
     // console.log(typeof m);
     let p = m.length;
     if (p != 0) {
-        cardUp.remove();
+        cardUp.replaceWith("cardUD");
 
-        var cardDown = document.getElementById("cardDown");
+        // var cardDown = document.getElementById("cardDown");
         // var flag = false;
         for (let j = 0; j < itemList.length; j++) {
             for (let k = 0; k < p; k++) {
-            
+
                 if (itemList[j].type === m[k]) {
 
-                    
-                    var filler = [];
-                     let idis=document.getElementById(`${itemList[j].id}`);
-                     console.log(idis);
-                     if(idis!==null){
-                     let idiss=document.getElementById(`${itemList[j].id}`);
-                     filler.push(idiss)
+
+                    // var filler = [];
+                    let idis = document.getElementById(`${itemList[j].id}`);
+                    console.log(idis);
+                    if (idis !== null) {
+                        let idiss = document.getElementById(`${itemList[j].id}`);
+                        //  filler.push(idiss)
                         idiss.remove();
-                     }
-                     console.log(filler)
-                    let maindiv = document.getElementById("cardDown");
+                    }
+                    //  console.log(filler)
+                    let mainDiv = document.getElementById("cardUD");
                     let cmntdiv = document.createElement("div");
                     cmntdiv.classList.add("col-sm-5", "col-lg-4", "offset-md-1", "offset-lg-0", "card", "mb-5")
-                    cmntdiv.setAttribute('id',`${itemList[j].id}`)
+                    cmntdiv.setAttribute('id', `${itemList[j].id}`)
                     let cmnt = `
                         
                         <img src="${itemList[j]["img-path"][0]}" " class="card-img-top food-image-path shadow pt-2" height="200px" widht="100px" alt="...">
                         <div class="card-body p-2 ">
                         <div class="row card-title-com d-flex align-content-center">
                             <h6 class="card-title col-10 ">${itemList[j].name}</h6>
-                            <div class="col-2  pr-0 veg ${itemList[j].veg ? "text-success":"text-danger"} d-flex justify-content-end" id="cat" >${itemList[j].veg ? '<img src="https://img.icons8.com/color/36/000000/vegetarian-food-symbol.png"/  height="35px" width="45px">':'<img src="https://img.icons8.com/color/36/000000/non-vegetarian-food-symbol.png"/>'}</div>
+                            <div class="col-2  pr-0 veg ${itemList[j].veg ? "text-success" : "text-danger"} d-flex justify-content-end" id="cat" >${itemList[j].veg ? '<img src="https://img.icons8.com/color/36/000000/vegetarian-food-symbol.png"/  height="35px" width="45px">' : '<img src="https://img.icons8.com/color/36/000000/non-vegetarian-food-symbol.png"/>'}</div>
                         </div>    
                             <div class="row d-flex flex-row flex-wrap ">
                             <div class="col-1 food-rating"><p class="card-text"><span class="type">${itemList[j].rating}</span></p></div>
                             <div class="col-2 star-img pl-0"><img src="./assets/rating-star-icon-11-256.png" style="margin-bottom:5px" height="25px" width="25px"></div>
                             </div>
                             <h6 class="card-text pt-1"><span class="type">${itemList[j].type}</span></h6>
-                            <h6 class="card-text pb-1">spice-level: <span class="level ${itemList[j]["spice-level"]==="high"? "text-danger":"text-success"}">${itemList[j]["spice-level"]}</span></h6>
+                            <h6 class="card-text pb-1">spice-level: <span class="level ${itemList[j]["spice-level"] === "high" ? "text-danger" : "text-success"}">${itemList[j]["spice-level"]}</span></h6>
+                            <button type="submit" class="btn btn-success" onclick="valueSender(${itemList[j].id})">Quick View</button>
+                        </div>
+                        `
+                    cmntdiv.innerHTML += cmnt;
+                    mainDiv.appendChild(cmntdiv);
+                    // console.log(cmntdiv);
+                }
+                // console.log(cardDown.children.length)
+                // console.log(cardDown.children)
+
+
+            }
+        }
+
+    }
+    else {
+        if (p == 0) {
+            localStorage.removeItem("fill");
+            location.reload();
+        }
+        let idis = document.getElementById(`${itemList[j].id}`);
+        console.log(idis);
+        if (idis !== null) {
+            let idiss = document.getElementById(`${itemList[j].id}`);
+            idiss.remove();
+        }
+
+    }
+
+
+};
+
+
+//onuncheck function call
+function unfilling() {
+    let filt = localStorage.getItem("fill");
+    let m = JSON.parse(filt);
+    // console.log(typeof m);
+    cardUD.remove();
+    let p = m.length;
+    console.log(p);
+    if (p != 0) {
+        var maindiv
+        if (p == 5) {
+            cardDown.replaceWith("cardDownUp");
+            maindiv = document.getElementById("cardDownUp");
+        } else if (p == 4) {
+            cardDownUp.replaceWith("cardUpDown");
+            maindiv = document.getElementById("cardUpDown");
+        } else if (p == 3) {
+            cardUpDown.replaceWith("cardSideUp");
+            maindiv = document.getElementById("cardSideUp");
+        } else if (p == 2) {
+            // cardDown.replaceWith("cardSideDown");
+            cardDown.remove();
+            cardSideUp.replaceWith("cardSideDown");
+            maindiv = document.getElementById("cardSideDown");
+        } else if (p == 1) {
+            // cardDown.replaceWith("cardSideDown");
+            
+            cardSideDown.replaceWith("cardSideUpDown");
+            maindiv = document.getElementById("cardSideUpDown");
+        }
+        // var cardDown = document.getElementById("cardDown");
+        // var flag = false;
+        for (let j = 0; j < itemList.length; j++) {
+            for (let k = 0; k < p; k++) {
+
+                if (itemList[j].type === m[k]) {
+
+
+                    // var filler = [];
+                    let idis = document.getElementById(`${itemList[j].id}`);
+                    console.log(idis);
+                    if (idis !== null) {
+                        let idiss = document.getElementById(`${itemList[j].id}`);
+                        //  filler.push(idiss)
+                        idiss.remove();
+                    }
+                    //  console.log(filler)
+                    let cmntdiv = document.createElement("div");
+                    cmntdiv.classList.add("col-sm-5", "col-lg-4", "offset-md-1", "offset-lg-0", "card", "mb-5")
+                    cmntdiv.setAttribute('id', `${itemList[j].id}`)
+                    let cmnt = `
+                        
+                        <img src="${itemList[j]["img-path"][0]}" " class="card-img-top food-image-path shadow pt-2" height="200px" widht="100px" alt="...">
+                        <div class="card-body p-2 ">
+                        <div class="row card-title-com d-flex align-content-center">
+                            <h6 class="card-title col-10 ">${itemList[j].name}</h6>
+                            <div class="col-2  pr-0 veg ${itemList[j].veg ? "text-success" : "text-danger"} d-flex justify-content-end" id="cat" >${itemList[j].veg ? '<img src="https://img.icons8.com/color/36/000000/vegetarian-food-symbol.png"/  height="35px" width="45px">' : '<img src="https://img.icons8.com/color/36/000000/non-vegetarian-food-symbol.png"/>'}</div>
+                        </div>    
+                            <div class="row d-flex flex-row flex-wrap ">
+                            <div class="col-1 food-rating"><p class="card-text"><span class="type">${itemList[j].rating}</span></p></div>
+                            <div class="col-2 star-img pl-0"><img src="./assets/rating-star-icon-11-256.png" style="margin-bottom:5px" height="25px" width="25px"></div>
+                            </div>
+                            <h6 class="card-text pt-1"><span class="type">${itemList[j].type}</span></h6>
+                            <h6 class="card-text pb-1">spice-level: <span class="level ${itemList[j]["spice-level"] === "high" ? "text-danger" : "text-success"}">${itemList[j]["spice-level"]}</span></h6>
                             <button type="submit" class="btn btn-success" onclick="valueSender(${itemList[j].id})">Quick View</button>
                         </div>
                         `
@@ -822,34 +1139,23 @@ function filling() {
             }
         }
 
-
     }
     else {
-        if(p==0){
+        if (p == 0) {
             localStorage.removeItem("fill");
             location.reload();
         }
-        let idis=document.getElementById(`${itemList[j].id}`);
-                     console.log(idis);
-                     if(idis!==null){
-                     let idiss=document.getElementById(`${itemList[j].id}`);
-                        idiss.remove();
-                     }
-        
+        let idis = document.getElementById(`${itemList[j].id}`);
+        console.log(idis);
+        if (idis !== null) {
+            let idiss = document.getElementById(`${itemList[j].id}`);
+            idiss.remove();
+        }
+
     }
-    // if(){
-    //     alert("item has already added to cart please checkout the cart page.");
-    // }else{
-    //      m[p]= id;
-    //      localStorage.setItem("carts",JSON.stringify(m));   
-    //      window.document.location="./cart-page.html"+"?id="+ id;   
-    // }
-    
+
+
 };
-
-
-
-
 
 
 
