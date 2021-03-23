@@ -1161,7 +1161,9 @@ function unfilling() {
 
 
 
-
+window.addEventListener('load', () =>{ 
+    localStorage.removeItem('fill');
+});
 
 
 
